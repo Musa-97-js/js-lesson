@@ -1,0 +1,70 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: orange;
+}
+a:hover {
+  color: black;
+}
+
+#jsDom {
+  padding: 90px 0;
+}
+#jsDom .chat {
+  width: 500px;
+  height: 340px;
+  border-radius: 20px;
+  background-color: #e8edff;
+  padding: 10px 0 0 0;
+}
+#jsDom .chat .message {
+  overflow: hidden;
+  width: 460px;
+  margin: 20px;
+  height: 230px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+#jsDom .chat .message .line {
+  margin: 7px 8px 0 8px;
+  display: flex;
+}
+#jsDom .chat .message .line h3 {
+  width: auto;
+  height: auto;
+  padding: 8px;
+  background-color: #7991e7;
+  border-radius: 15px;
+  color: #ffffff;
+}
+#jsDom .chat .message .start {
+  display: flex;
+  justify-content: flex-end;
+}
+#jsDom .chat .message .end {
+  display: flex;
+  justify-content: flex-end;
+}
+#jsDom .chat .text input {
+  width: 180px;
+  height: 27px;
+  border-radius: 15px;
+  border: 1px solid #000000;
+}
+#jsDom .chat .text .sent h3 {
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0 0 0 10px;
+  padding: 7px 18px;
+  background-color: #7991e7;
+  border-radius: 18px;
+  color: #ffffff;
+  transition: 0.2s;
+}
+#jsDom .chat .text .sent h3:hover {
+  background-color: #6a84e4;
+  transition: 0.2s;
+}/*# sourceMappingURL=style.css.map */
