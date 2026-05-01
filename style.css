@@ -10,36 +10,46 @@ a:hover {
   color: black;
 }
 
-#jsDom {
+#todo {
   padding: 90px 0;
 }
-#jsDom .box {
-  width: 23%;
-  height: auto;
+#todo .box {
+  border-radius: 20px;
+  padding: 20px 40px 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  background-color: #9c6644;
-  border-radius: 25px;
+  background-color: rgba(148, 84, 1, 0.8980392157);
 }
-#jsDom .box .textbox {
-  font-size: 40px;
+#todo .box .textbox h1 {
+  font-size: 50px;
   font-weight: 700;
   color: #ffffff;
-  margin: 20px 0;
 }
-#jsDom .box .add input {
-  padding: 15px 20px;
-  border-radius: 20px;
+#todo .box .add input {
+  font-size: 20px;
+  margin: 30px 0;
+  border-radius: 10px;
 }
-#jsDom .box .btn {
-  padding: 6px 25px;
+#todo .box .btn {
   background-color: #ffffff;
-  margin: 27px 0;
   border-radius: 20px;
+  padding: 5px 23px;
 }
-#jsDom .minibox h2 {
-  width: auto;
-  border: 1px solid #000000;
-  padding: 10px 40px;
-  border-radius: 20px;
-  margin-top: 30px;
+#todo .box .btn h3 {
+  cursor: pointer;
+  font-size: 19px;
+}
+#todo .box .btn:hover {
+  background-color: #c5c5c5;
+}
+#todo .minibox h2 {
+  width: 110px;
+  height: auto;
+  padding: 5px 0;
+  margin-top: 10px;
+  border-radius: 15px;
+  border: 1px solid;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */
